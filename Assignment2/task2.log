@@ -1,0 +1,45 @@
+
+steps: To install subversion in Lunix-Ubuntu 
+
+// To install subversion 
+	                            sudo apt-get install subversion
+//Install server 
+                                    sudo apt-get install openssh-server
+
+                                    mkdir newfile
+
+                                    cd newfile
+
+                         //  create hello.python 
+                                    hello.python
+                                    python hello.py
+                                   hello world
+                                    cd .. 
+
+ //  Create a Repository 
+                                   Sudo mkdir  -p  /svn/repos
+                                   Sudo   svnadmin  create  /svn/repos/hello
+                                   Sudo svnserve  -d  -r  /svn/repos     
+//After create repos
+
+                               
+                    // to share svn
+                                 Svn import newfile/  svn://192.168.1.4/hello
+// message commit 
+                                  This subversion file
+                                  Svn-commit.tmp
+                // check 
+                                  Svn co svn://192.168.1.4/hello
+// fix the code  than commit it again
+                                   Svn commit -m “fixed the python code “
+                                  
+
+
+              
+
+
+
+
+
+
+

@@ -1,0 +1,95 @@
+
+
+
+$ git clone https://github.com/Lailatef/CISC3140.git
+
+Cloning into 'CISC3140'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+
+$ ls
+  CISC3140/
+
+$ cd CISC3140/
+
+$ ls
+hw2  README.md
+
+// make directory in local file
+$ mkdir homeWork2
+
+$ cd homeWork2
+// Safe index.html file in homework2 file 
+ls  index.html
+cd  ..
+
+$ cd  CISC3140/
+
+$ ls
+homeWork2/  hw2  README.md
+
+
+$ git add .
+
+
+Lolo@Me MINGW64 ~/CISC3140 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   homeWork2/index.html
+
+
+$ git commit -m "Home Work 2 (Html) CISC 3140 summer 2020."
+
+$ git push
+
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   homeWork2/index.html
+
+$ git add homeWork2/index.html
+
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   homeWork2/index.html
+
+$ git commit -m "small addition to the html code."
+
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 420 bytes | 210.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Lailatef/CISC3140.git
+   d725999..39599e2  master -> master
+
+
+
+
+
+
+
+
+
+
+
+
+

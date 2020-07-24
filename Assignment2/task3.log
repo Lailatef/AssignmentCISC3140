@@ -1,0 +1,24 @@
+Install the curl using the following command line:
+$ sudo apt-get install curl
+
+Then we download the ml-latest-small.zip using the following command:
+$ curl -LO files.grouplens.org/datasets/movielens/ml-latest-small.zip
+
+
+Unzip the file using the following command:
+$ unzip ml-latest-small.zip
+
+Checking the movies.csv file
+
+Then, I got the first 200 rows from the movies.csv to a new file and I called it Laila.csv
+I used the following command line:
+$ head -n 200 movies.csv > Laila.csv
+
+Then, I used the Sort command to sort the information by year in Laila.csv and I saved it in LailaSorted.csv
+I used the following command line:
+$ sort -t"(" -k2 Laila.csv > LailaSorted.csv
+
+
+
+
+
